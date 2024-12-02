@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.toolbar {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#timer {
+    font-size: 18px;
+    margin-top: 10px;
+}
